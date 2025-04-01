@@ -1,0 +1,20 @@
+.columnas{
+	column-count: 3; /*Define el numero de columnas*/
+	column-gap: 30px; /*Establece el espacio entre columnas*/
+	column-rule-style: dashed ; /*Linea de division*/
+	column-rule-color: pink; /*Definir color de la linea de division*/
+	column-rule-width: 2px; /*Definir ancho de la linea de division*/
+	column-width: 150px; /*Ancho de las columnas*/
+}
+ 
+.titulo{
+	column-span: all;
+}
+ 
+.texto1{
+	visibility: visible;
+}
+ 
+.texto2{
+	visibility: hidden;
+}
